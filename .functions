@@ -11,10 +11,10 @@ basepath='/Users/shreyasp/mongosrc/mongo/'
 exPath='/build/debug/mongo'
 port='37017'
 
-# This function helps in setting up in MongoDB debug environment 
+# This function helps in setting up the MongoDB debug environment
 function setupMongo()
 {
-    #Setting up the specific paths for mongod executables
+    # Setting up the specific paths for mongod executables
     dbpath='/data/db'
     storageEngine='wiredTiger'
 
