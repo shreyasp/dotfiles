@@ -1,0 +1,35 @@
+#!/bin/bash
+
+#########################################################################################
+# Purpose : This file contains any functions which can be used to perform multiple tasks.
+# Author  : Shreyas Patil
+# Created : 04-Oct-2015
+#########################################################################################
+
+# Global variables to be used in functions
+basepath='/Users/shreyasp/mongosrc/mongo/'
+exPath='/build/debug/mongo'
+port='37017'
+
+# This function helps in setting up in MongoDB debug environment 
+function setupMongo()
+{
+    #Setting up the specific paths for mongod executables
+    dbpath='/data/db'
+    storageEngine='wiredTiger'
+
+    echo ' ------------------------------- '
+    echo '| Setup Mongo Debug Environment |'
+    echo ' ------------------------------- '
+    echo
+
+    # Start the mongod process on debug port
+    $basepath$exPath/mongod -v --dbpath $basepath$dbpath --port $port --storageEngine $storageEngine
+}
+
+# This function will run mongo process for debugging environment
+function startMongo()
+{
+    # Start the mongo process on debug port
+    $basepath$expath/mongo --port=$port
+}

@@ -1,0 +1,9 @@
+###############################################################
+# Purpose : Any file that needs to be ignored from the commit
+#
+# Author  : Shreyas Patil
+# Created : 04-Oct-2015
+###############################################################
+
+# Ignore following files from the submission
+.sublime-workspace
