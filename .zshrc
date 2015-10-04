@@ -83,14 +83,5 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-
-# General purpose command aliases
-alias cl='clear'
-alias src='source $ZSH/oh-my-zsh.sh'
-alias h='history'
-
-# Git command Aliases 
-alias gis='git status'             # Git branch status
-alias gpu='git push origin master' # Git push changes to origin master branch
-alias gpl='git pull origin master' # Git Pull changes from origin master branch
-alias glo='git log --use-mailmap'  # Git Log for past commits
+source ~/dotfiles/.functions
+source ~/dotfiles/.aliases
