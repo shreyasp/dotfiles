@@ -9,7 +9,6 @@
 # General purpose command aliases
 alias cl='clear'
 alias src='source $ZSH/oh-my-zsh.sh'
-alias h='history'
 
 # Git command Aliases 
 alias gis='git status'             # Git branch status
