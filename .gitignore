@@ -7,3 +7,4 @@
 
 # Ignore following files from the submission
 .sublime-workspace
+.DS_Store
