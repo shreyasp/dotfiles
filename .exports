@@ -1,0 +1,5 @@
+# Add auto jump to .zshrc
+[[ -s $(brew --prefix)/etc/profile.d/autojump.sh ]] && . $(brew --prefix)/etc/profile.d/autojump.sh
+
+# Specifically imported for latest 'git'
+export PATH="$PATH:/usr/local/Cellar/git/2.8.1/bin/"

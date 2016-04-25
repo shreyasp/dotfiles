@@ -10,7 +10,7 @@
 alias cl='clear'
 alias src='source $ZSH/oh-my-zsh.sh'
 
-# Git command Aliases 
+# Git command Aliases
 alias gis='git status'             # Git branch status
 alias gpu='git push origin master' # Git push changes to origin master branch
 alias gpl='git pull origin master' # Git Pull changes from origin master branch
