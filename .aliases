@@ -15,3 +15,7 @@ alias gis='git status'             # Git branch status
 alias gpu='git push origin master' # Git push changes to origin master branch
 alias gpl='git pull origin master' # Git Pull changes from origin master branch
 alias glo='git log --use-mailmap'  # Git Log for past commits
+
+
+# IDE aliases
+alias atom='atom-beta'
