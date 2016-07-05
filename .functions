@@ -33,3 +33,8 @@ function startMongo()
     # Start the mongo process on debug port
     $basepath$expath/mongo --port=$port
 }
+
+function testThisImport()
+{
+  echo 'Import was successful'
+}
